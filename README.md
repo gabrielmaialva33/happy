@@ -100,7 +100,7 @@ The following software must be installed:
   # Dependencies install.
   $ yarn # or npm install
   # Data base creation.
-  $ yarn knex:migrate # or npm run knex:migrate
+  $ yarn typeorm migration:run # or npm run knex:migrate:run
   # API start
   $ yarn start # or npm start
 ```
