@@ -42,7 +42,7 @@
 
 ## :bookmark: About
 
-**happy** is a platform to link children care institutions with people interested in help. This project was implemented during the **Next Level Week #3** of **[Rocketseat](https://rocketseat.com.br/)**.
+**Happy** is a platform to link children care institutions with people interested in help. This project was implemented during the **Next Level Week #3** of **[Rocketseat](https://rocketseat.com.br/)**.
 
 <br>
 
