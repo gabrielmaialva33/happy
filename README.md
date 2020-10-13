@@ -1,69 +1,133 @@
-<h2 align="center">
-  <img src="https://img.shields.io/badge/Next%20Level%20Week-%233-00b8d3?style=for-the-badge" alt="Evento Next Level Week 3" />
+<h1 align="center">
+  <img alt="Happy" src=".github/logo.svg" height="100px">
+</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/Next%20Level%20Week-%233-00b8d3?style=for-the-badge&logo=appveyor" alt="Evento Next Level Week 3" />
   <img src="https://img.shields.io/badge/web%3F-ok-00b8d3?style=for-the-badge" alt="Sistema web Ok" />
   <img src="https://img.shields.io/badge/server%3F-no-00b8d3?style=for-the-badge" alt="Server No" />
   <img src="https://img.shields.io/badge/app mobile%3F-No-00b8d3?style=for-the-badge" alt="Aplicativo mobile No" />
   <img src="https://img.shields.io/github/license/matheusfelipeog/proffy?color=00b8d3&style=for-the-badge" alt="License" />
-</h2>
+</p>
 
-<h1 align="center">
-  <img src="./.github/assets/images/happy.png" alt="Logo da Proffy" width="1000px" />
-</h1>
+<p align="center">
+  <img src="https://img.shields.io/github/languages/top/gabrielmaialva33/happy?style=for-the-badge&logo=appveyor" alt="GitHub top language" >
+  <img src="https://img.shields.io/github/languages/count/maiquelp/happy?style=for-the-badge&logo=appveyor" alt="GitHub language count" >
+  <img src="https://img.shields.io/github/repo-size/gabrielmaialva33/happy?style=for-the-badge&logo=appveyor" alt="Repository size" >
+  <a href="https://github.com/maiquelp/happy/commits/master">
+    <img src="https://img.shields.io/github/last-commit/gabrielmaialva33/happy?style=for-the-badge&logo=appveyor" alt="GitHub last commit" >
+  <img src="https://img.shields.io/badge/made%20by-Rocketseat-15c3d6?style=for-the-badge&logo=appveyor" alt="Made by Rocketseat" >
+  </a>
+</p>
 
+<br>
+<p align="center">
+    <a href="README.md">English</a>
+    ·
+    <a href="README-pt.md">Portuguese</a>
+</p>
 
-## 📌 Index
+<p align="center">
+  <a href="#bookmark-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#computer-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-tools">Tools</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#package-installation">Installation</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
+</strong>
+<br>
 
-- [Sobre o projeto](#-sobre-o-projeto)
-- [Screenshots](#-screenshots)
-- [Techs](#-techs)
-- [Instalação e Start](#-instalação-e-start)
-- [Contribuições](#-contribuições)
-- [License](#-license)
+<p align="center">
+    <img alt="Screens" src=".github/happy-screens.png" height="350px" />
+</p>
 
+## :bookmark: About
 
-## ❔ Sobre o projeto
+**happy** is a platform to link children care institutions with people interested in help. This project was implemented during the **Next Level Week #3** of **[Rocketseat](https://rocketseat.com.br/)**.
 
-Uma plataforma para facilitar o encontro de orfanatos por pessoas que querem visita-los.
+<br>
 
-O projeto está em desenvolvimento na [Next Level Week 3](https://nextlevelweek.com/episodios/omnistack/1/edicao/3)
+## :computer: Technologies
 
+-  **[Typescript](https://www.typescriptlang.org/)**
+-  **[Node.js](https://nodejs.org/)**
+-  **[Express](https://expressjs.com/)**
+-  **[Knex](http://knexjs.org/)**
+-  **[SQLite](https://www.sqlite.org/)**
+-  **[ReactJS](https://reactjs.org/)**
+-  **[React Native](http://facebook.github.io/react-native/)**
+-  **[Expo](https://expo.io/)**
+-  **[Axios](https://github.com/axios/axios)**
 
-## 📸 Screenshots
+<br>
 
+## :wrench: Tools
 
-## 🛠 Techs
+- **[VisualStudio Code](https://code.visualstudio.com/)**
+- **[Insomnia](https://insomnia.rest/)**
+- **[Google Chrome](https://www.google.com/chrome/)**
+- **[DBeaver](https://dbeaver.io/)**
 
-- **Web**
-  - [React](https://reactjs.org/)
-  - [Typescript](https://www.typescriptlang.org/)
-  - [Leaflet](https://leafletjs.com/)
-  - [React Leaflet](https://react-leaflet.js.org/)
-  - [Open Street Map](https://www.openstreetmap.org/) ou [Mapbox](https://www.mapbox.com/)
+<br>
 
+## :package: Installation
 
-## ⚙ Instalação e Start
+### :heavy_check_mark: **Prerequisites**
 
+The following software must be installed:
+  
+  - **[Node.js](https://nodejs.org/en/)**
+  - **[Git](https://git-scm.com/)**
+  - **[NPM](https://www.npmjs.com/)** or **[Yarn](https://yarnpkg.com/)**
+  - **[Expo](https://expo.io/)** 
+  - **[Expo App](https://play.google.com/store/apps/details?id=host.exp.exponent)**
 
-## 🤝 Contribuições
+<br>
+  
+### :arrow_down: **Cloning the repository**
 
-Siga os passos abaixo para contribuir:
+```sh
+  $ git clone https://github.com/maiquelp/happy.git
+```
 
-1. Faça o *fork* do projeto (<https://github.com/gabrielmaialva33/happy>)
+<br>
 
-2. Clone o seu *fork* para sua maquína (`git clone https://github.com/user_name/happy.git`)
+### :arrow_forward:	**Running the applications**
 
-3. Crie uma *branch* para realizar sua modificação (`git checkout -b feature/name_new_feature`)
+- :package: API
 
-4. Adicione suas modificações e faça o *commit* (`git commit -m "Descreva sua modificação"`)
+```sh
+  $ cd server
+  # Dependencies install.
+  $ yarn # or npm install
+  # Data base creation.
+  $ yarn knex:migrate # or npm run knex:migrate
+  # API start
+  $ yarn start # or npm start
+```
 
-5. *Push* (`git push origin feature/name_new_feature`)
+- :computer: Web app
 
-6. Crie um novo *Pull Request*
+```sh
+  $ cd web
+  # Dependencies install.
+  $ yarn # or npm install
+  # Running web app
+  $ yarn start # or npm start
+```
 
-7. Pronto, agora só aguardar a análise 🚀 
+- :iphone: Mobile app
 
+```sh
+  $ cd mobile
+  # Dependencies install.
+  $ yarn # or npm install
+  # Running mobile app
+  $ yarn start # or npm start
+```
 
-## 📜 License
+<br>
+
+## :memo: License
 
 O projeto está sobre a licença [MIT](./LICENSE) ❤️ 
 
