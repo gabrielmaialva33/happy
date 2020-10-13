@@ -51,7 +51,7 @@
 -  **[Typescript](https://www.typescriptlang.org/)**
 -  **[Node.js](https://nodejs.org/)**
 -  **[Express](https://expressjs.com/)**
--  **[Knex](http://knexjs.org/)**
+-  **[TypeORM](https://typeorm.io/#/)**
 -  **[SQLite](https://www.sqlite.org/)**
 -  **[ReactJS](https://reactjs.org/)**
 -  **[React Native](http://facebook.github.io/react-native/)**
@@ -100,7 +100,7 @@ Os seguintes softwares devem estar instalados:
   # Dependencies install.
   $ yarn # or npm install
   # Data base creation.
-  $ yarn knex:migrate # or npm run knex:migrate
+  $ yarn yarn typeorm migration:run # or npm run yarn typeorm migration:run
   # API start
   $ yarn start # or npm start
 ```
