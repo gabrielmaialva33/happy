@@ -2,7 +2,7 @@ import { Request, Response } from 'express';
 import { getRepository } from 'typeorm';
 import * as Yup from 'yup';
 
-import Orphanage from '../models/Orphanage';
+import Orphanage from '../database/models/Orphanage';
 
 export default {
   async create(request: Request, response: Response): Promise<Response> {
