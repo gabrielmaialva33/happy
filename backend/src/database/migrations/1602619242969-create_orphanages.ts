@@ -26,7 +26,7 @@ export default class createOrphanages1602619242969
             precision: 2,
           },
           {
-            name: 'logitude',
+            name: 'longitude',
             type: 'decimal',
             scale: 10,
             precision: 2,

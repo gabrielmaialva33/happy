@@ -17,7 +17,7 @@ export default class Orphanages {
   latitude: number;
 
   @Column({ type: 'decimal', scale: 10, precision: 2 })
-  logitude: number;
+  longitude: number;
 
   @Column({ type: 'text' })
   about: string;
