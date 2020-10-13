@@ -51,7 +51,7 @@
 -  **[Typescript](https://www.typescriptlang.org/)**
 -  **[Node.js](https://nodejs.org/)**
 -  **[Express](https://expressjs.com/)**
--  **[Knex](http://knexjs.org/)**
+-  **[TypeORM](https://typeorm.io/#/)**
 -  **[SQLite](https://www.sqlite.org/)**
 -  **[ReactJS](https://reactjs.org/)**
 -  **[React Native](http://facebook.github.io/react-native/)**
