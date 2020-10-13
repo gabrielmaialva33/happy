@@ -86,7 +86,27 @@
   background: #96feff;
 }
 
-/* MEDIA QUERY */
+/*
+todo -> media query
+*/
+@media (max-width: 1366px) {
+  #page-landing .content-wrapper main {
+    max-width: 350px;
+    margin-bottom: 10vh;
+  }
+
+  .content-wrapper .location {
+    position: absolute;
+    right: 25px;
+    top: 30px;
+  }
+
+  .content-wrapper .enter-app {
+    position: absolute;
+    right: 40px;
+    bottom: 60px;
+  }
+}
 
 @media (max-width: 1050px) {
   #page-landing .content-wrapper {

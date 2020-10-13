@@ -1,0 +1,5 @@
+REACT_APP_MAPBOX_TOKEN=
+CITY=
+UF=
+
+create a token on => https://www.mapbox.com/
