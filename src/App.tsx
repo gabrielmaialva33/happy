@@ -1,7 +1,9 @@
 import React from 'react';
 
-function App() {
-  return <h1>Happay</h1>;
-}
+const App: React.FC = () => (
+  <div>
+    <h1>Happy</h1>
+  </div>
+);
 
 export default App;
