@@ -19,14 +19,14 @@ const OrphanagesMap: React.FC = () => (
       </header>
 
       <footer>
-        <strong>São Paulo</strong>
-        <span>São Paulo</span>
+        <strong>{process.env.CITY || 'Capão Bonito'}</strong>
+        <span>{process.env.UF || 'São Paulo'}</span>
       </footer>
     </aside>
 
     <Map
       center={[-24.0065961, -48.3803738]}
-      zoom={10}
+      zoom={13}
       style={{ width: '100%', height: '100%' }}
     >
       {/* -> "https://a.tile.openstreetmap.org/{z}/{x}/{y}.png" */}
