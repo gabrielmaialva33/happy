@@ -129,6 +129,6 @@ The following software must be installed:
 
 ## :memo: License
 
-O projeto está sobre a licença [MIT](./LICENSE) ❤️ 
+This project is under the **MIT** license. [MIT](./LICENSE) ❤️ 
 
 Liked? Leave a little star to help the project ⭐
