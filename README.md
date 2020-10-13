@@ -48,7 +48,7 @@ O projeto está em desenvolvimento na [Next Level Week 3](https://nextlevelweek.
 
 Siga os passos abaixo para contribuir:
 
-1. Faça o *fork* do projeto (<https://github.com/matheusfelipeog/happy>)
+1. Faça o *fork* do projeto (<https://github.com/gabrielmaialva33/happy>)
 
 2. Clone o seu *fork* para sua maquína (`git clone https://github.com/user_name/happy.git`)
 
