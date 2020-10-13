@@ -1,0 +1,13 @@
+{
+  "type": "YOUR DATABASE TYPE",
+  "host": "localhost",
+  "port": 0000,
+  "username": "YOUR USER",
+  "password": "YOUR PASS",
+  "database": "YOUR DATABASE",
+  "entities": ["./src/modules/**/infra/typeorm/entities/*.ts"],
+  "migrations": ["./src/shared/infra/typeorm/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/shared/infra/typeorm/migrations"
+  }
+}
