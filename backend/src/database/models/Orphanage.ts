@@ -10,7 +10,7 @@ import {
 import Image from './Image';
 
 @Entity('orphanages')
-export default class Orphanages {
+export default class Orphanage {
   @PrimaryGeneratedColumn('increment')
   id: number;
 
@@ -41,9 +41,9 @@ export default class Orphanages {
   @JoinColumn({ name: 'orphanage_id' })
   images: Image[];
 
-  @CreateDateColumn({ name: 'created_at', type: 'timestamp with time zone' })
+  @CreateDateColumn({ name: 'created_at' })
   created_at: Date;
 
-  @CreateDateColumn({ name: 'updated_at', type: 'timestamp with time zone' })
+  @CreateDateColumn({ name: 'updated_at' })
   updated_at: Date;
 }

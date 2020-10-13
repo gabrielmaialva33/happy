@@ -21,9 +21,13 @@ export default class Image {
   @JoinColumn({ name: 'orphanage_id' })
   orphanage: Orphanage;
 
-  @CreateDateColumn({ name: 'created_at', type: 'timestamp with time zone' })
+  @CreateDateColumn({
+    name: 'created_at',
+  })
   created_at: Date;
 
-  @CreateDateColumn({ name: 'updated_at', type: 'timestamp with time zone' })
+  @CreateDateColumn({
+    name: 'updated_at',
+  })
   updated_at: Date;
 }

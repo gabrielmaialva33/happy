@@ -5,7 +5,7 @@
   "username": "YOUR USER",
   "password": "YOUR PASS",
   "database": "YOUR DATABASE",
-  "entities": ["./src/models/**/*.ts"],
+  "entities": ["./src/database/models/*.ts"],
   "migrations": ["./src/database/migrations/*.ts"],
   "cli": {
     "migrationsDir": "./src/database/migrations"

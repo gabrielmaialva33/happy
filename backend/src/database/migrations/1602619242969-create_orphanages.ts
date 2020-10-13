@@ -17,7 +17,7 @@ export default class createOrphanages1602619242969
           },
           {
             name: 'name',
-            type: 'varchar(50)',
+            type: 'varchar',
           },
           {
             name: 'latitude',
@@ -41,7 +41,7 @@ export default class createOrphanages1602619242969
           },
           {
             name: 'opening_hours',
-            type: 'varchar(100)',
+            type: 'varchar',
           },
           {
             name: 'open_on_weekends',
