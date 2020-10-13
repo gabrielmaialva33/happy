@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Happy" src=".github/logo.svg" height="100px">
+  <img src=".github/assets/images/logo.svg" height="100px" alt="Happy">
 </h1>
 <p align="center">
   <img src="https://img.shields.io/badge/Next%20Level%20Week-%233-00b8d3?style=for-the-badge&logo=appveyor" alt="Evento Next Level Week 3" />
@@ -37,7 +37,7 @@
 <br>
 
 <p align="center">
-    <img alt="Screens" src=".github/happy-screens.png" height="350px" />
+    <img alt="Screens" src=".github/assets/images/happy-screens.png" height="350px" />
 </p>
 
 ## :bookmark: About
@@ -65,7 +65,7 @@
 - **[VisualStudio Code](https://code.visualstudio.com/)**
 - **[Insomnia](https://insomnia.rest/)**
 - **[Google Chrome](https://www.google.com/chrome/)**
-- **[DBeaver](https://dbeaver.io/)**
+- **[DataGrip](https://www.jetbrains.com/pt-br/datagrip/)**
 
 <br>
 
@@ -86,7 +86,7 @@ The following software must be installed:
 ### :arrow_down: **Cloning the repository**
 
 ```sh
-  $ git clone https://github.com/maiquelp/happy.git
+  $ git clone https://github.com/gabrielmaialva33/happy.git
 ```
 
 <br>
@@ -131,4 +131,4 @@ The following software must be installed:
 
 O projeto está sobre a licença [MIT](./LICENSE) ❤️ 
 
-Gostou? Deixe uma estrelinha para ajudar o projeto ⭐
+Liked? Leave a little star to help the project ⭐
