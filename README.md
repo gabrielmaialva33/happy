@@ -11,9 +11,9 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/languages/top/gabrielmaialva33/happy?style=for-the-badge&logo=appveyor" alt="GitHub top language" >
-  <img src="https://img.shields.io/github/languages/count/maiquelp/happy?style=for-the-badge&logo=appveyor" alt="GitHub language count" >
+  <img src="https://img.shields.io/github/languages/count/gabrielmaialva33/happy?style=for-the-badge&logo=appveyor" alt="GitHub language count" >
   <img src="https://img.shields.io/github/repo-size/gabrielmaialva33/happy?style=for-the-badge&logo=appveyor" alt="Repository size" >
-  <a href="https://github.com/maiquelp/happy/commits/master">
+  <a href="https://github.com/gabrielmaialva33/happy/commits/master">
     <img src="https://img.shields.io/github/last-commit/gabrielmaialva33/happy?style=for-the-badge&logo=appveyor" alt="GitHub last commit" >
   <img src="https://img.shields.io/badge/made%20by-Rocketseat-15c3d6?style=for-the-badge&logo=appveyor" alt="Made by Rocketseat" >
   </a>
