@@ -3,7 +3,11 @@ import {
   Column,
   PrimaryGeneratedColumn,
   CreateDateColumn,
+  JoinColumn,
+  OneToMany,
 } from 'typeorm';
+
+import Image from './Image';
 
 @Entity('orphanages')
 export default class Orphanages {
@@ -30,6 +34,12 @@ export default class Orphanages {
 
   @Column({ type: 'boolean', default: false })
   open_on_weekends: Boolean;
+
+  @OneToMany(() => Image, image => image.orphanage, {
+    cascade: ['insert', 'update'],
+  })
+  @JoinColumn({ name: 'orphanage_id' })
+  images: Image[];
 
   @CreateDateColumn({ name: 'created_at', type: 'timestamp with time zone' })
   created_at: Date;
