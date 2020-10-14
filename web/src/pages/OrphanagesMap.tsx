@@ -19,8 +19,8 @@ const OrphanagesMap: React.FC = () => (
       </header>
 
       <footer>
-        <strong>{process.env.CITY || 'Capão Bonito'}</strong>
-        <span>{process.env.UF || 'São Paulo'}</span>
+        <strong>{process.env.REACT_APP_CITY || 'Capão Bonito'}</strong>
+        <span>{process.env.REACT_APP_UF || 'São Paulo'}</span>
       </footer>
     </aside>
 
