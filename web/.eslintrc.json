@@ -40,6 +40,8 @@
       "jsx-a11y/label-has-associated-control": "off",
       "jsx-a11y/anchor-is-valid": "off",
       "react/button-has-type": "off",
+      "camelcase": "off",
+      "react/jsx-no-target-blank": "off",
       "import/extensions": [
         "error",
         "ignorePackages",
