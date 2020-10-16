@@ -33,7 +33,7 @@ export default {
   //* -> create
   async create(req: Request, res: Response) {
     const orphanagesRepository = getRepository(Orphanage);
-    console.log('test');
+
     const requestImages = req.files as Express.Multer.File[];
 
     const images = requestImages.map(image => {
