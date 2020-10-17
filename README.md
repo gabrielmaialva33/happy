@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/web%3F-ok-00b8d3?style=for-the-badge" alt="Sistema web Ok" />
   <img src="https://img.shields.io/badge/server%3F-ok-00b8d3?style=for-the-badge" alt="Server Ok" />
   <img src="https://img.shields.io/badge/app mobile%3F-No-00b8d3?style=for-the-badge" alt="Aplicativo mobile No" />
-  <img src="https://img.shields.io/github/license/gabrielmaialva33/sos?color=00b8d3&style=for-the-badge" alt="License" />
+  <img src="https://img.shields.io/github/license/gabrielmaialva33/happy?color=00b8d3&style=for-the-badge" alt="License" />
 </p>
 
 <p align="center">
